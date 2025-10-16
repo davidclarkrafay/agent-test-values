@@ -32,6 +32,7 @@ configmaps:
     test2: okie
     new: value
     okie2: dokie2
+    new2: value2
 
 service:
   type: ClusterIP
