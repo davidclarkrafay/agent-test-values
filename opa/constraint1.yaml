@@ -18,5 +18,3 @@ spec:
         allowedRegex: "^[0-9]{12}$"    
       - key: cost-type
         allowedRegex: "^dedicated$"
-      - key: pod-security.kubernetes.io/enforce
-        allowedRegex: "^restricted$"
