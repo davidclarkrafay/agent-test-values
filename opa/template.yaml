@@ -48,7 +48,6 @@ spec:
           msg := parameters.message
         }
 
-        # Make sure all required labels are present
         violation[{"msg": msg, "details": {"missing_labels": missing}}] {
           provided := {label | input.review.object.metadata.labels[label]}
           required := {label | label := input.parameters.labels[_].key}
@@ -58,11 +57,7 @@ spec:
           msg := get_message(input.parameters, def_msg)
         }
 
-        # Make sure all labels have the required value
         violation[{"msg": msg}] {
-          # Ignore namespaces that don't match the application team pattern
-          ns_name := input.review.object.metadata.name
-          re_match(`^(aa|bb|pp)[0-9]{8}-(dev|qa|prd)-.*$`, ns_name)
           value := input.review.object.metadata.labels[key]
           expected := input.parameters.labels[_]
           expected.key == key
