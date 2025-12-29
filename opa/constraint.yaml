@@ -1,0 +1,20 @@
+apiVersion: constraints.gatekeeper.sh/v1beta1  
+kind: K8sRequiredLabels  
+metadata:  
+  name: all-must-have-owner  
+spec:  
+  enforcementAction: deny
+  match:  
+    kinds:  
+      - apiGroups: [""]  
+        kinds: ["Namespace"]
+  parameters:  
+    labels:  
+      - key: cost-center    
+        allowedRegex: "^[0-9]{6}$"    
+      - key: env-type    
+        allowedRegex: "^(dev|qa|prd)$"
+      - key: aws-account-id    
+        allowedRegex: "^[0-9]{12}$"    
+      - key: cost-type
+        allowedRegex: "^dedicated$"
