@@ -53,7 +53,7 @@ spec:
           required := {label | label := input.parameters.labels[_].key}
           missing := required - provided
           count(missing) > 0
-          def_msg := sprintf("you must provide labels test message: %v", [missing])
+          def_msg := sprintf("you must provide labels test message hi there: %v", [missing])
           msg := get_message(input.parameters, def_msg)
         }
 
