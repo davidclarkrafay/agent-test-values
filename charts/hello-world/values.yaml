@@ -30,7 +30,7 @@ configmaps:
     XYZ: trigger
     test: okiedokiepokiewokie'
     test2: okie
-    test3: new
+    test3: new3
 
 service:
   type: ClusterIP
