@@ -24,8 +24,8 @@ serviceAccount:
 
 configmaps:
   self:
-    BBB: bbb
-    JJJ: jjj
+    # BBB: bbb
+    # JJJ: jjj
     NAME: devx-service-ai
     XYZ: trigger
     test: okiedokiepokiewokie'
