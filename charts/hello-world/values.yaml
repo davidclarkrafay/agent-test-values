@@ -31,8 +31,8 @@ configmaps:
     XYZ: trigger
     test: okiedokiepokiewokie'
     test2: okie
-    test3: new3
-    test4: okie
+    # test3: new3
+    # test4: okie
     # test5: trigg
     # test5: okiedokie
 
