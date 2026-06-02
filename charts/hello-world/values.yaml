@@ -30,7 +30,7 @@ configmaps:
     NAME: devx-service-ai
     XYZ: trigger
     test: okiedokiepokiewokie'
-    test2: okie
+    # test2: okie
     # test3: new3
     # test4: okie
     # test5: trigg
