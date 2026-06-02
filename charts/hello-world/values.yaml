@@ -33,7 +33,6 @@ configmaps:
     testlocal: commit
     testnew: commit
     testnewnew: commit-detach
-    testnewnew: branch
     # test2: okie
     # test3: new3
     # test4: okie
