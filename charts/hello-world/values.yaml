@@ -30,6 +30,7 @@ configmaps:
     NAME: devx-service-ai
     XYZ: trigger
     test: okiedokiepokiewokie'
+    testlocal: commit
     # test2: okie
     # test3: new3
     # test4: okie
