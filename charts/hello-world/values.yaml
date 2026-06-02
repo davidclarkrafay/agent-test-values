@@ -31,6 +31,7 @@ configmaps:
     XYZ: trigger
     test: okiedokiepokiewokie'
     testlocal: commit
+    testnew: commit
     # test2: okie
     # test3: new3
     # test4: okie
