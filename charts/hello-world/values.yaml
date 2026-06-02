@@ -34,7 +34,6 @@ configmaps:
     test3: new3
     test4: okie
     test5: trigg
-    test6: trigg
     # test5: okiedokie
 
 service:
