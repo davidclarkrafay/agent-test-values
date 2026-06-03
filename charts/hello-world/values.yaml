@@ -33,6 +33,7 @@ configmaps:
     testlocal: commit
     testnew: commit
     testgoogle: meet
+    testoldimage: time
     # testnewnew: commit-detach
     # test2: okie
     # test3: new3
