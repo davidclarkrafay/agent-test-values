@@ -32,6 +32,7 @@ configmaps:
     test: okiedokiepokiewokie'
     testlocal: commit
     testnew: commit
+    testgoogle: meet
     # testnewnew: commit-detach
     # test2: okie
     # test3: new3
