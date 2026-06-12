@@ -36,7 +36,7 @@ configmaps:
     testoldimage: time
     testdelete: branch
     testtrigger: test
-    trigger: test
+
     # testnewnew: commit-detach
     # test2: okie
     # test3: new3
